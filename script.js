@@ -1,36 +1,48 @@
+
+
 let age = 18;
+let isfemale = true;
+let driverStatus = "bob";
+
+//testdata
+/*
+let age = 16;
+let isfemale = false;
+let driverStatus = "bb"; 
+*/
 
 if (age == 18) {
 
-    document.write("toegang geaccepteerd, u bent 18 jaar");
+    console.log("toegang geaccepteerd, u bent 18 jaar");
 
 } else if (age > 18) {
 
-    document.write("toegang geaccepteerd, u bent ouder dan 18 jaar");
+    console.log("toegang geaccepteerd, u bent ouder dan 18 jaar");
 } else {
 
-    document.write("u bent jonger dan 18 jaar, u wordt vriendelijk verzocht buiten te blijven");
+    console.log("u bent jonger dan 18 jaar, u wordt vriendelijk verzocht buiten te blijven");
 }
 
 
 
-let isfemale = true;
 
 if (isfemale) {
-    document.write("welkom bij ladiesnight");
+    console.log("welkom bij ladiesnight");
 
 } else {
-    document.write("Helaas is het vandaag ladiesnight, kom de volgende keer terug")
+    console.log("Helaas is het vandaag ladiesnight, kom de volgende keer terug")
 }
 
 
 
-let bob = true;
 
-if (bob) {
 
-    document.write("u mag autorijden");
+if (driverStatus === "bob") {
+
+    console.log("u mag autorijden");
 
 } else {
-    document.write("u mag niet rijden");
+    console.log("u mag niet rijden");
 }
+
+
